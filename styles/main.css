@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+html, body, div, iframe, h1, h2, section, p, img, footer, ul, li, a, nav, #main, #staticNav, #fixedNav, .half, #mainFrame
+{
+	-webkit-text-size-adjust	: 100%;
+	-webkit-box-sizing			: border-box;
+	-moz-box-sizing				: border-box;
+	box-sizing					: border-box;
+}
+
+html, body
+{
+	height			: 100%;
+	margin			: 0px;
+	padding			: 0px;
+}
+
+body
+{
+	background-color: #FFEFEF;
+	font-family		: 'Philosopher', serif;
+	padding			: 0px;
+	margin			: 0px;
+}
+
+nav
+{
+	display				: block;
+	width				: 100%;
+	top					: 0px;
+	height				: 50px;
+	text-align			: center;
+	border-bottom-style	: solid;
+	border-bottom-width : 3px;
+	background-color	: #000;
+}
+
+nav ul
+{
+	height			: 100%;
+	padding			: 0px;
+	margin			: 0px;
+	list-style		: none;
+	vertical-align	: middle;
+	display			: inline-block;
+}
+
+nav ul li
+{
+	display			: inline-block;
+	padding-top		: 8px;
+	height			: 100%;
+}
+
+nav ul li a
+{
+	display			: inline-block;
+	margin-right	: 3px;
+	margin-left		: 3px;
+	height			: 100%;
+	vertical-align	: middle;
+	text-align		: center;
+	color			: #F7E7CE;
+	text-decoration	: none;
+}
+
+nav ul li .current
+{
+	color	: #DC143C;
+}
+
+#fixedNav
+{
+	font-size			: 150%;
+	font-family			: 'Varela Round', sans-serif;
+	border-bottom-color	: #DC143C;
+	position			: fixed;
+	z-index				: 10;
+}
+
+#divider
+{
+	clear			: both;
+}
+
+section
+{
+	padding-left	: 5%;
+	padding-right	: 5%;
+	padding-bottom	: 5px;
+	padding-top		: 5px;
+	border-style	: solid;
+	border-width	: 3px;
+	border-color	: #DC143C;
+	margin-bottom	: 10px;
+	margin-top		: 10px;
+	background-color: #F7E7CE;
+}
+
+h1
+{
+	font-size		: 200%;
+	background-color: #22AAAA;
+	padding-top		: 5px;
+	padding-bottom	: 5px;
+	padding-left	: 5px;
+	border			: 2px solid;
+}
+
+h2
+{
+	font-size		: 160%;
+}
+
+section p
+{
+	font-size		: 115%;
+}
+
+section iframe
+{
+	margin-left		: auto;
+	margin-right	: auto;
+}
+
+#main
+{
+	margin-left		: 15%;
+	margin-right	: 15%;
+	height			: 100%;
+	padding			: 50px;
+}
+
+.half
+{
+	width			: 45%;
+	height			: 100%;
+	display			: inline-block;
+	vertical-align	: top;
+	margin-left		: 1em;
+	margin-right	: 1em;
+}
+
+.half img
+{
+	width			: 75%;
+	height			: 50%;
+	position		: relative;
+}
+
+section img
+{
+	width			: 45%;
+	margin-left		: auto;
+	margin-right	: auto;
+}
+
+footer
+{
+	position		: relative;
+	margin			: auto;
+	bottom			: 0px;
+	padding			: 3px;
+	margin-bottom	: 5px;
+	text-align		: center;
+	background-color: #F7E7CE;
+	border			: 2px solid;
+	border-color	: #DC143C;
+	font-size		: 130%;
+}
