@@ -1,0 +1,148 @@
+.divider
+{
+	padding-bottom: 60px;
+}
+
+.bg-danger
+{
+	display: inline-block;
+}
+
+.carousel
+{
+	display: inline-block;
+}
+
+.carousel-container
+{
+	text-align: center;
+}
+
+.resizeContainer
+{
+	text-align:center;
+}
+
+.navbar-toggle
+{
+	border-color: #AAA !important;
+}
+
+.navbar-toggle:focus, .navbar-toggle:hover
+{
+	background-color: #AAA !important;
+}
+
+.carousel-caption
+{
+	background-color: black;
+	bottom: 0px;
+	left: 0px;
+	display: inline-block;
+	width: 100%;
+	height: 5%;
+	opacity: 50% !important;
+}
+
+.inline
+{
+	display: inline-block;
+}
+
+body
+{
+	background-color: #FAFAFA;
+}
+
+thead th
+{
+	border-color: black !important;
+}
+
+hr
+{
+	border-color: red;
+}
+
+header
+{
+	border-bottom-width: 3px !important;
+	border-bottom-color: red !important;
+	border-bottom-style: solid !important;
+}
+
+.navbar-inverse
+{
+	background-color: black !important;
+	background-image: none;
+}
+
+nav
+{
+	background-color: black !important;
+}
+
+.anchor-sansStyle
+{
+	text-decoration: none !important;
+	color: #000;
+}
+
+iframe
+{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+thead th
+{
+	font-size: 150%;
+}
+
+.anchor-sansStyle:hover
+{
+	cursor: pointer;
+}
+
+.col-md-4
+{
+	text-align: center;
+}
+
+@media only screen
+and (min-width: 768px)
+and (orientation: portrait)
+{
+	iframe
+	{
+		width: 640px;
+		height: 360px;
+	}
+}
+
+@media only screen
+and (min-width: 480px)
+and (max-width: 767px)
+and (orientation: portrait)
+{
+
+	iframe
+	{
+		position: relative;
+		width: 90%;
+		padding-bottom: 5%;
+	}
+}
+
+@media only screen
+and (min-width: 300px)
+and (max-width: 480px)
+and (orientation: portrait)
+{
+	iframe
+	{
+		width: 100%;
+		height: 250px;
+	}
+}
