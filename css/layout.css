@@ -56,7 +56,9 @@ body
 
 thead th
 {
-	border-color: black !important;
+	border-bottom-color: black !important;
+	border-bottom-style: solid !important;
+	border-bottom-width: thin !important;
 }
 
 hr
@@ -90,7 +92,6 @@ nav
 
 iframe
 {
-	float: left;
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
