@@ -18,6 +18,16 @@ html, body
 	display: inline-block;
 }
 
+.carousel-control.left, .carousel-control.right
+{
+	background-image: none !important;
+}
+
+.glyphicon
+{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 .carousel-container
 {
 	text-align: center;
